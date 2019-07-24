@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/ResponsiveStyles.css";
+@import '~ngx-bar-rating/themes/br-default-theme.css';
+@import '~ngx-bar-rating/themes/br-horizontal-theme.css';
+@font-face {
+    font-family: Droid-Arabic-kufi;
+    src: url(assets/fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+  }
+body{direction: rtl;font-family: Droid-Arabic-kufi}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}
+body .ui-widget{font-family: Droid-Arabic-kufi !important}
+button.MOEButton {
+    border-radius: 8px;
+    background-color: #FF502F;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+}
+ .mat-form-field-label, .mat-form-field {
+    font-family: Droid-Arabic-Kufi;
+}
+button.MOEButton:hover {
+    background-color: #e02400;
+}
+html, body { height: 100%; }
+ 
+.bookDetailsRateHolder  .br-unit {
+    width: 25px !important;
+}
+
+.bookDetailsRateHolder   .br-unit.br-selected:after {color: #6C6C6C !important;}
+
+   .bookDetailsRateHolder  .br-unit:after {
+    font-size: 30px;
+}
+ 
+.bookDetailsRateHolder  .br.br-default {
+    width: fit-content !important;
+    display: inline-block;
+}
+.booksCopiesHolder .slick-prev:before {
+    content: "\f104";
+    color: black;
+    display: block;
+    font-family: fontawesome;
+    font-size: 40px;
+    color: #737373;
+    line-height: 0;
+}
+
+.booksCopiesHolder .slick-next:before {
+    content: "\f105";
+    color: black;
+    display: block;
+    font-family: fontawesome;
+    font-size: 40px;
+    color: #737373;
+    line-height: 0;
+}
+
+:focus{
+    outline-color:transparent !important
+}
+body .ui-dialog-footer .ui-button {
+    background-color: #ff502f;
+    border: 1px solid #ff502f;
+}
+body .ui-dialog-footer .ui-button:hover {
+    background-color: #f52700 !important;
+    border: 1px solid #ff2900 !important;
+}
+body  .ui-dialog-footer .ui-button:focus {
+    outline-color: transparent !important;
+    box-shadow: 0 0 0 0 rgba(141, 205, 255, 0) !important;
+}
+body .ui-dialog .ui-dialog-content {
+    padding: 40px 20px;
+}
+   app-profile-page app-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+app-sign-up .ui-fileupload button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-icon-left {
+    display: none;
+}

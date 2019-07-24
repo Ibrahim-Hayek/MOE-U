@@ -1,0 +1,18 @@
+.GreenFooterBottom {
+    height: 75px;
+    background-color: #004D61;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 24px;
+ 
+}
+
+::ng-deep button.navbar-toggle {
+    background: #ddd !important;
+}
+::ng-deep button.navbar-toggle:hover
+ {
+    background: #f1f1f1 !important;
+}
